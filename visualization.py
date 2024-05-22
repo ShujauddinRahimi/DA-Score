@@ -1,0 +1,1 @@
+# This script will serve to create the visualization of the scenario.

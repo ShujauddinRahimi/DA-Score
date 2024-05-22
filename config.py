@@ -1,0 +1,1 @@
+# This script will serve to define all the configuration details so that they are all in one place and can be easily changed.
