@@ -3,6 +3,8 @@
 
 def main():
     print('Hello')
+    
+    print("Test")
 
 
 
