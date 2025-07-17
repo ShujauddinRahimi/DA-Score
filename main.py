@@ -1,12 +1,7 @@
-# This script will serve as the main entry point for the visualization. Every function should be as basic
-# as possible, reusability and maintainability are the highest priority. Define everything, leave nothing to question.
-
-def main():
-    print('Hello')
-    
-    print("Test")
-
-
-
-if __name__ == "__main__":
-    main()
+import config
+import data_handler
+        
+if __name__ == '__main__':
+    # Load the data
+    input_scenarios = data_handler.load_data(config.data_path)
+    data_handler.batch_process_logs(input_scenarios)
